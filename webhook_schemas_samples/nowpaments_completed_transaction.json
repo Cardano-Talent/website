@@ -1,0 +1,22 @@
+{
+	"actually_paid": 0,
+	"actually_paid_at_fiat": 0,
+	"fee": { "currency": "ada", "depositFee": 0, "serviceFee": 0, "withdrawalFee": 0 },
+	"invoice_id": 5624927366,
+	"order_description": "job_listing",
+	"order_id": "6nrq7xx0ju9kljb",
+	"outcome_amount": 154.950492,
+	"outcome_currency": "ada",
+	"parent_payment_id": null,
+	"pay_address": "addr1v9ftwmu03l3a84p863hnctxt5q9a97d9fu0k75d5cpnjp8cqt2zkd",
+	"pay_amount": 158.007073,
+	"pay_currency": "ada",
+	"payin_extra_id": null,
+	"payment_extra_ids": null,
+	"payment_id": 5070087218,
+	"payment_status": "finished",
+	"price_amount": 50,
+	"price_currency": "usd",
+	"purchase_id": "5301567998",
+	"updated_at": 1723050166882
+}
