@@ -34,6 +34,24 @@
 			<Tooltip.Root>
 				<Tooltip.Trigger asChild let:builder>
 					<Button
+						href="https://github.com/Cardano-Talent"
+						target="_blank"
+						rel="noopener noreferrer"
+						builders={[builder]}
+						variant="outline"
+						size="icon"
+					>
+						<Icons.github class="h-4 w-4" />
+					</Button>
+				</Tooltip.Trigger>
+				<Tooltip.Content>
+					<p>Go to GitHub</p>
+				</Tooltip.Content>
+			</Tooltip.Root>
+
+			<Tooltip.Root>
+				<Tooltip.Trigger asChild let:builder>
+					<Button
 						href="mailto:{contactEmail}"
 						on:click={copyEmail}
 						builders={[builder]}

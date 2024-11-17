@@ -1,19 +1,26 @@
-# Cardano Talent
+# CardanoSkills
 
-## SvelteKit App
+CardanoSkills is a comprehensive platform for exploring, learning, and showcasing skills related to the Cardano blockchain ecosystem. The platform is built with cutting-edge technologies to deliver a modern, fast, and user-friendly experience.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## 🛠️ Built With
 
-## Creating a project
+This project leverages a modern web development stack for optimal performance and scalability:
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **[SvelteKit](https://kit.svelte.dev/):** A framework for building fast, modern web applications.
+- **[PocketBase](https://pocketbase.io/):** Backend as a service, handling the database, authentication, and APIs.
+- **[ShadCN Svelte](https://www.shadcn-svelte.com/):** A UI component library for building elegant, reusable interfaces.
+- **[TypeScript](https://www.typescriptlang.org/):** Strongly typed programming language for scalability and maintainability.
+- **[Node.js](https://nodejs.org/):** JavaScript runtime for server-side execution.
+
+## 📦 Installation
+
+Follow these steps to set up the project locally:
+
+## Cloning Repo
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone https://github.com/your-username/cardanoskills.git
+cd cardanoskills
 ```
 
 ## Developing
@@ -41,6 +48,8 @@ You can preview the production build with `npm run preview`.
 
 ## Pocketbase Typegen
 
+Pocketbase is the chosen backend for this platform, anytime you make changes to the database schema, you need to generate the types in order to have a typesafe backend.
+
 ```bash
 npx pocketbase-typegen --db ./pocketbase-dev/pb_data/data.db --out pocketbase-types.ts
 ```
@@ -48,7 +57,3 @@ npx pocketbase-typegen --db ./pocketbase-dev/pb_data/data.db --out pocketbase-ty
 ## Run migrations
 
 Before you can run the actual backend, you must run the migrations using `./pocketbase migrate up` in the current directory. It will create appropriate schema tables/collections.
-
-## Critical
-
-- Expiration cron job
