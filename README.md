@@ -50,6 +50,10 @@ You can preview the production build with `npm run preview`.
 
 You can use a local or remote pocketbase instance. In my case, i'm running pocketbase locally on the `pocketbase-dev` folder
 
+## Database Schema
+
+You can find the database schema on the `pb_schemas` folder
+
 ## Pocketbase Typegen
 
 Pocketbase is the chosen backend for this platform, anytime you make changes to the database schema, you need to generate the types in order to have a typesafe backend.
