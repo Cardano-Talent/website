@@ -46,6 +46,10 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
+## Run Pocketbase
+
+You can use a local or remote pocketbase instance. In my case, i'm running pocketbase locally on the `pocketbase-dev` folder
+
 ## Pocketbase Typegen
 
 Pocketbase is the chosen backend for this platform, anytime you make changes to the database schema, you need to generate the types in order to have a typesafe backend.
