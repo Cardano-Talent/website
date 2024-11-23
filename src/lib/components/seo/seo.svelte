@@ -53,6 +53,6 @@
 	<script
 		defer
 		src="https://cloud.umami.is/script.js"
-		data-website-id="a29c631a-8834-46c7-8aa6-1de7e7254195"
+		data-website-id="2417dbe9-07f7-4469-bc36-fd47d00d2ec5"
 	></script>
 </svelte:head>
