@@ -20,7 +20,8 @@ const config = {
 					'https://cardanotalent.com ',
 					'https://*.cardanotalent.com',
 					'https://*.umami.is',
-					'https://*.umami.dev'
+					'https://*.umami.dev',
+					'https://struggle-grew.pockethost.io/'
 				],
 				'img-src': ['self', 'https:'],
 				'style-src': ['self', 'unsafe-inline'],

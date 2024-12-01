@@ -1,6 +1,6 @@
-# CardanoSkills
+# Cardano Talent
 
-CardanoSkills is a comprehensive platform for exploring, learning, and showcasing skills related to the Cardano blockchain ecosystem. The platform is built with cutting-edge technologies to deliver a modern, fast, and user-friendly experience.
+Cardano Talent is a comprehensive platform for exploring, learning, and showcasing skills related to the Cardano blockchain ecosystem. The platform is built with cutting-edge technologies to deliver a modern, fast, and user-friendly experience.
 
 ## 🛠️ Built With
 
@@ -15,13 +15,6 @@ This project leverages a modern web development stack for optimal performance an
 ## 📦 Installation
 
 Follow these steps to set up the project locally:
-
-## Cloning Repo
-
-```bash
-git clone https://github.com/your-username/cardanoskills.git
-cd cardanoskills
-```
 
 ## Developing
 
